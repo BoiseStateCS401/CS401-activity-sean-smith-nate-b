@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-<meta charset="utf-8">
-	<title>Our first Webpage</title>
-</head>
-<body>
-<h1>Sean S. & Nate B.</h1>
-<p>HTML is the markup language that tells the Web browser how to display a Web page's words and images for the user.  Each individual markup code is referred to as an element (but many people also refer to it as a tag).  Some elements come in pairs that indicate when some display effect is to begin and when it is to end.</p>
-<a href="http://searchmicroservices.techtarget.com/definition/HTML-Hypertext-Markup-Language" title="HTML source">See this link for source of above HTML information.</a>
-<p>CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language. The separation of HTML from CSS makes it easier to maintain sites, share style sheets across pages, and tailor pages to different environments. This is referred to as the separation of structure (or: content) from presentation.</p>
-<a href="https://www.w3.org/standards/webdesign/htmlcss" title="CSS source">See this link for the above CSS information.</a>
-<p>JavaScript is a programming language that allows you to implement complex things on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, or interactive maps, or animated 2D/3D graphics, or scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.</p>
-<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript" title="JavaScript source">See this link for source of above JavaScript information.</a>
-<p align="right">This text is right justified.</p> <br> <br>
-<a href="https://en.wikipedia.org/wiki/Penguin"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg/330px-South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg" alt="Picture of Chinstrap penguin" title="Chinstrap penguin" /></a>
-<a href="https://en.wikipedia.org/wiki/Dolphin"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/450px-Tursiops_truncatus_01.jpg" alt="Picture of Bottlenose dolphin" title="Bottlenose dolphin" /></a>
-<p><em>This is emphasized text.</em> <br> <strong>This is stong text.</strong> <br> </p>
-<pre>System.out.println("Hello World!");</pre>
-<table style="width: 100%">
-<tr>
-	<th>Firstname</th>
-	<th>Lastname</th>
-</tr>
-<tr>
-	<td>Sean</td>
-	<td>Smith</td>
-</tr>
-<tr>
-	<td>Nate</td>
-	<td>B.</td>
-</tr>
-</table>
-
-<p>&copy; 2017</p>
-
-<ul>
-	<li>div, header, p, and form elements are block-level.  span, a, and img elements are inline elements.  The block elements take up the full width of the screen, while the inline elements do not take the full width.</li>
-	<li>The default margin is 8px on all sides.  This can be changed.</li>
-	<li>The default font size of an h1 element is 2em and the font weight is bold.</li>
-	<li>334 ms</li>
-	<li>In the network tab of the dev tools.</li>
-</ul>
-
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Our first Webpage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <h1>Sean S. & Nate B.</h1>
+    <p>HTML is the markup language that tells the Web browser how to display a Web page's words and images for the user.  Each individual markup code is referred to as an element (but many people also refer to it as a tag).  Some elements come in pairs that indicate when some display effect is to begin and when it is to end.</p>
+    <a href="http://searchmicroservices.techtarget.com/definition/HTML-Hypertext-Markup-Language" title="HTML source">See this link for source of above HTML information.</a>
+    <p>CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language. The separation of HTML from CSS makes it easier to maintain sites, share style sheets across pages, and tailor pages to different environments. This is referred to as the separation of structure (or: content) from presentation.</p>
+    <a href="https://www.w3.org/standards/webdesign/htmlcss" title="CSS source">See this link for the above CSS information.</a>
+    <p>JavaScript is a programming language that allows you to implement complex things on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, or interactive maps, or animated 2D/3D graphics, or scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.</p>
+    <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript" title="JavaScript source">See this link for source of above JavaScript information.</a>
+    <p id="p_align">This text is right justified.</p>
+    <a href="https://en.wikipedia.org/wiki/Penguin"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg/330px-South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg" alt="Picture of Chinstrap penguin" title="Chinstrap penguin" /></a>
+    <a href="https://en.wikipedia.org/wiki/Dolphin"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/450px-Tursiops_truncatus_01.jpg" alt="Picture of Bottlenose dolphin" title="Bottlenose dolphin" /></a>
+    <p><em>This is emphasized text.</em> <strong>This is stong text.</strong> </p>
+    <pre>System.out.println("Hello World!");</pre>
+    <table style="width: 100%">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+      </tr>
+      <tr>
+        <td>Sean</td>
+        <td>Smith</td>
+      </tr>
+      <tr>
+        <td>Nate</td>
+        <td>B.</td>
+      </tr>
+    </table>
+    <p>&copy; 2017</p>
+    <ul>
+      <li>div, header, p, and form elements are block-level.  span, a, and img elements are inline elements.  The block elements take up the full width of the screen, while the inline elements do not take the full width.</li>
+      <li>The default margin is 8px on all sides.  This can be changed.</li>
+      <li>The default font size of an h1 element is 2em and the font weight is bold.</li>
+      <li>
+        334 ms
+        <ul id="nested_list">
+          <li>Nested list item 1.</li>
+          <li>Nested list item 2.</li>
+        </ul>
+      </li>
+      <li>In the network tab of the dev tools.</li>
+    </ul>
+  </body>
 </html>
