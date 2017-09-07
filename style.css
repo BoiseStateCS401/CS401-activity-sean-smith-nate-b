@@ -40,6 +40,7 @@ img {
 
 #nested_list {
 	list-style-type: circle;
+	color: black;
 }
 
 img:hover {
