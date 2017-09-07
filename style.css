@@ -38,8 +38,7 @@ img {
 	text-align: right;
 }
 
-/* could also be ul > li > ul > li */
-#nested_list {
+.nested_list li {
 	list-style-type: circle;
 	color: red;
 }
