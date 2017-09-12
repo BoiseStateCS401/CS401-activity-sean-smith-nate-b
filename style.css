@@ -1,61 +1,79 @@
 body {
-	background-color: orange;
-	font-family: Algerian;
+    background-color: orange;
+    font-family: Algerian;
 }
-
 h1 {
-	font-family: Georgia;
-	font-size: xx-large;
-	text-align: center;
+    font-family: Georgia;
+    font-size: xx-large;
+    text-align: center;
 }
-
-p, li {
-	color: green;
+p,
+li {
+    color: green;
 }
-
 em {
-	color: blue;
+    color: blue;
 }
-
 ul {
-	list-style-type: square;
-	line-height: 2;
+    list-style-type: square;
+    line-height: 2;
 }
-
 a {
-	text-decoration: none;
-	color: blue;
+    text-decoration: none;
+    color: blue;
 }
-
 img {
-	border: 2px solid;
-	border-radius: 25px;
-	border-color: black;
-	overflow: hidden;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: black;
+    overflow: hidden;
+    float: left;
+    width: 25%;
 }
-
+figcaption {
+    clear: both;
+}
+aside {
+    float: right;
+    width: 50%;
+}
+div {
+    clear: both;
+}
 #p_align {
-	text-align: right;
+    text-align: right;
 }
-
 .nested_list li {
-	list-style-type: circle;
-	color: red;
+    list-style-type: circle;
+    color: red;
 }
-
 img:hover {
-	opacity: 0.5;
-	filter: alpha(opacity=50);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
-
 pre {
-	background-color: white;
-	border: 2px dashed;
-	padding: 5px;
-	margin: 3px;
+    background-color: white;
+    border: 2px dashed;
+    padding: 5px;
+    margin: 3px;
 }
-
-table, th, td {
-	border: 1px solid;
-	border-collapse: collapse;
+table {
+    width: 100%;
+}
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+nav ul {
+    list-style-type: none;
+    border: 1px solid #555
+}
+nav ul li {
+    text-align: center;
+    border-bottom: 1px solid #555
+}
+nav ul li:last-child {
+    border-bottom: none;
 }
